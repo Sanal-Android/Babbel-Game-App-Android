@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    app:startDestination="@id/courseFragment">
+
+    <fragment
+        android:id="@+id/courseFragment"
+        android:name="com.team.smileapplication.ui.course.CourseFragment"
+        android:label="CourseFragment" >
+        <action
+            android:id="@+id/action_course_to_module"
+            app:destination="@id/moduleFragment"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/fade_out" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/moduleFragment"
+        android:name="com.team.smileapplication.ui.course.ModuleFragment"
+        android:label="ModuleFragment" >
+
+
+    </fragment>
+
+
+
+</navigation>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+
+    </data>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/ColorWhite"
+        android:animateLayoutChanges="true">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnQ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:padding="@dimen/main_padding"
+            android:background="@drawable/edit_text_bg"
+            android:fontFamily="@font/avenirnextbold"
+            android:textColor="@color/blackColor"
+            tools:text="@string/done"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="24dp"
+            android:fontFamily="@font/avenirnextbold"
+            android:gravity="center"
+            android:lineSpacingExtra="@dimen/seperator"
+            android:text="Enter your answer correctly \nbefore floating down"
+            android:textSize="16dp"
+            app:layout_constraintBottom_toTopOf="@+id/btnTest"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnQ" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/blackColor"
+            android:background="@drawable/edit_text_bg"
+            tools:text="@string/done"
+            android:padding="@dimen/normal_padding"
+            android:fontFamily="@font/avenirnextbold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+
+            android:layout_marginBottom="24dp"
+            android:src="@drawable/ic_baseline_check_circle_24"
+            android:id="@+id/imgY"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:fontFamily="@font/avenirnextregular"
+            android:text="Wrong!"
+            android:textColor="@color/cart_red"
+            app:layout_constraintBottom_toTopOf="@+id/imgN"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:fontFamily="@font/avenirnextregular"
+            android:text="Correct!"
+            android:textColor="@color/gray_opacity_58pr"
+            app:layout_constraintBottom_toTopOf="@+id/imgY"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginBottom="24dp"
+            android:id="@+id/imgN"
+            android:src="@drawable/ic_baseline_remove_circle_24"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
+
+
+

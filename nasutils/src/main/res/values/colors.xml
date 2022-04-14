@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0EAADB</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#0956DE</color>
+
+
+    <color name="colorAccentTrans">#995C6979</color>
+
+    <!--Text color-->
+    <color name="text_color">#5C6979</color>
+    <color name="shadow_view">#A8B6C84D</color>
+    <color name="green_shadow">#A2EFAB</color>
+    <color name="ColorWhite">#FFF</color>
+    <color name="ColorCommonBackground">#F7F8FC</color>
+    <color name="home_text_color">#2C3F4A</color>
+    <color name="view_boarder">#E1E6F5</color>
+    <color name="add_data_black">#323B45</color>
+    <color name="pin_top_color">#01D4FE</color>
+    <color name="gray_opacity_58pr">#804D4D4D</color>
+    <color name="share_color">#B3C8E9</color>
+    <color name="cart_red">#F94343</color>
+    <color name="colorAlphaBlack">#99000000</color>
+    <color name="blackColor">#000000</color>
+    <color name="trans">#FFFFFF</color>
+    <color name="blue80">#3E99B6</color>
+    <color name="splash_start">#0B9CF8</color>
+    <color name="login_status_bar">#089CFA</color>
+
+
+</resources>

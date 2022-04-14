@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:animateLayoutChanges="true">
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="32dp"
+            android:fontFamily="@font/avenirnextbold"
+            android:gravity="center"
+            android:lineSpacingExtra="@dimen/seperator"
+            android:text="You can choose the right option before floating the words,\n Click to start the game"
+            android:textColor="@color/blackColor"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/btnTakePic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start"
+            android:fontFamily="@font/avenirnextbold"
+            android:background="@color/green_shadow"
+            android:padding="@dimen/main_padding"
+            android:textColor="@color/blackColor"
+            android:id="@+id/btnTakePic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+
+
+
+
+        
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>
+
+

@@ -1,0 +1,162 @@
+<resources>
+
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="SplashTheme" parent="AppTheme">
+        <item name="android:windowBackground">@drawable/splash_gradient</item>
+        <item name="android:statusBarColor">@color/trans</item>
+        <item name="android:windowAnimationStyle">@style/ActivityAnimationStyle</item>
+
+
+    </style>
+
+    <style name="MyThemeActivity" parent="AppTheme">
+        <item name="android:windowBackground">@drawable/splash_bg</item>
+        <item name="android:statusBarColor">@color/ColorWhite</item>
+        <item name="android:windowAnimationStyle">@style/ActivityAnimationStyle</item>
+    </style>
+    <style name="MyThemeActivityHome" parent="AppTheme">
+        <item name="android:windowBackground">@color/ColorWhite</item>
+        <item name="android:statusBarColor">@color/ColorWhite</item>
+        <item name="android:windowAnimationStyle">@style/ActivityAnimationStyle</item>
+
+        <!--   <item name="colorControlHighlight">#d50000</item>-->
+
+
+    </style>
+    <style name="ActivityAnimationStyle" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/enter_from_right</item>
+        <item name="android:activityOpenExitAnimation">@anim/exit_to_left</item>
+
+    </style>
+
+
+
+
+    <style name="ToolbarTheme" parent="AppTheme">
+        <item name="colorControlNormal">@color/colorAccent</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+    </style>
+
+
+    <!--THIS IS FOR HEADLINE FONTS-->
+    <style name="Text.Headline.Bold" parent="TextAppearance.AppCompat.Display1">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+    </style>
+
+    <style name="Text.Headline.Roboto.Bold" parent="TextAppearance.AppCompat.Display1">
+        <item name="android:fontFamily">@font/roboto_regular</item>
+    </style>
+
+    <style name="Text.Headline.Roboto.Light" parent="TextAppearance.AppCompat.Display1">
+        <item name="android:fontFamily">@font/roboto_light</item>
+    </style>
+
+    <style name="Text.Headline.Bold.White" parent="Text.Headline.Bold">
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+
+    <!--THIS IS FOR TITLE FONTS-->
+    <style name="Text.Title.Medium" parent="TextAppearance.AppCompat.Headline">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+    </style>
+
+    <style name="Text.Title.SemiBold" parent="TextAppearance.AppCompat.Headline">
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+    </style>
+
+    <style name="Text.Title.Regular" parent="TextAppearance.AppCompat.Headline">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+    </style>
+
+    <style name="Text.Title.Light" parent="TextAppearance.AppCompat.Headline">
+        <item name="android:fontFamily">@font/poppins_light</item>
+    </style>
+
+    <!--TOP TITLE FONT STYLE-->
+    <style name="Text.Title.Top" parent="Text.Title.Medium">
+        <item name="android:textSize">@dimen/title</item>
+        <item name="android:textColor">@color/text_color</item>
+
+    </style>
+
+    <!--TOP SUB TITLE FONT STYLE-->
+    <style name="Text.Sub_Title.Top" parent="Text.Title.Light">
+        <item name="android:textSize">@dimen/sub_title</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+
+    <!--TOP TEXT HINT STYLE-->
+    <style name="Text.Hint" parent="Text.Title.Light">
+        <item name="android:textSize">@dimen/hint_title</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="colorAccent">@color/shadow_view</item>
+        <item name="android:textColorHint">@color/text_color</item>
+        <item name="colorControlNormal">@color/shadow_view</item>
+        <item name="colorControlActivated">@color/shadow_view</item>
+    </style>
+
+    <!--TEXT EDIT FIELD-->
+    <style name="Text.Edit.Normal" parent="Text.Title.Light">
+        <item name="android:textSize">@dimen/sub_title</item>
+        <item name="android:paddingTop">8dp</item>
+    </style>
+    <style name="Text.Edit.Bold" parent="Text.Title.Light">
+        <item name="android:textSize">@dimen/sub_title</item>
+        <item name="android:textColor">@color/home_text_color</item>
+    </style>
+
+    <style name="Text.Edit.AddData" parent="Text.Title.Regular">
+        <item name="android:textSize">@dimen/sub_title</item>
+        <item name="android:textColor">@color/add_data_black</item>
+    </style>
+
+    <!--HOME_TEXT_LIST-->
+    <style name="Text.Home.Sub" parent="Text.Title.Medium">
+        <item name="android:textSize">@dimen/home_list_15dp</item>
+        <item name="android:textColor">@color/home_text_color</item>
+    </style>
+    <style name="Text.Medical.Tab" parent="Text.Title.Medium">
+        <item name="android:textSize">@dimen/sub_title</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+    <!--THIS IS FOR EXTRA SMALL FONTS ERROR-->
+    <style name="Text.ExtraSmall.Light" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:fontFamily">@font/poppins_light</item>
+    </style>
+    <style name="EditTextError.Medium.Light" parent="Text.ExtraSmall.Light">
+        <item name="android:textColor">@android:color/holo_red_light</item>
+    </style>
+
+    <!--Alert Dialog Theme -->
+    <style name="AlertDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="buttonBarNegativeButtonStyle">@style/NegativeButtonStyle</item>
+        <item name="buttonBarPositiveButtonStyle">@style/PositiveButtonStyle</item>
+        <item name="android:colorAccent">@color/ColorWhite</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:background">@color/ColorWhite</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textColorPrimary">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="NegativeButtonStyle" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+    </style>
+
+    <style name="PositiveButtonStyle" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+    </style>
+
+
+
+</resources>

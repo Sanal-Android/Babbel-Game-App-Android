@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="spec"
+            type="com.team.smileapplication.data.model.Spec" />
+
+    </data>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/normal_padding"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="@dimen/normal_padding"
+            android:layout_marginBottom="@dimen/normal_padding"
+            android:elevation="@dimen/seperator"
+            android:padding="@dimen/normal_padding"
+            android:paddingBottom="@dimen/normal_padding"
+            app:cardCornerRadius="@dimen/normal_padding"
+            app:cardElevation="@dimen/seperator"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="148dp">
+
+                <com.facebook.drawee.view.SimpleDraweeView
+                    android:id="@+id/sdFlower"
+                    android:layout_width="166dp"
+                    android:layout_height="0dp"
+
+
+                    android:background="@color/ColorWhite"
+
+                    app:actualImageScaleType="focusCrop"
+                    app:layout_constraintBottom_toBottomOf="parent"
+
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:placeholderImageScaleType="focusCrop"
+                    app:progressBarAutoRotateInterval="1000"
+                    app:progressBarImage="@drawable/progress_half_circle_green"
+                    app:progressBarImageScaleType="centerInside"
+                    app:roundWithOverlayColor="@color/ColorWhite"
+                    app:roundingBorderColor="@color/ColorWhite"
+                    app:roundingBorderWidth="0.5dp" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/titleName"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+
+                    android:fontFamily="@font/avenirnextbold"
+                    android:text="Agitulon Megapotamidsssssssssscum B"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/sdFlower"
+                    app:layout_constraintTop_toTopOf="@+id/sdFlower" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/txtSubName"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="28dp"
+                    android:fontFamily="@font/avenirnextregular"
+                    android:text="Agitulon Megapotamicum B"
+                    android:textSize="14sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/sdFlower"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/sdFlower"
+                    app:layout_constraintTop_toBottomOf="@+id/titleName" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</layout>

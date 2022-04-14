@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="splash_driver_logo_height">100dp</dimen>
+
+    <dimen name="seperator">4dp</dimen>
+    <dimen name="main_padding">20dp</dimen>
+    <dimen name="normal_padding">10dp</dimen>
+    <dimen name="edittext_hieght">40dp</dimen>
+    <dimen name="image_medium_size">50dp</dimen>
+
+    <dimen name="title">24sp</dimen>
+    <dimen name="sub_title">17sp</dimen>
+    <dimen name="hint_title">14sp</dimen>
+    <dimen name="home_list_15dp">15sp</dimen>
+
+</resources>

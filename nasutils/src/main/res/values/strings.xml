@@ -1,0 +1,129 @@
+<resources>
+    <string name="app_name">FYTA</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="retry">Retry</string>
+    <string name="unknown_error">Unknown Error</string>
+    <string name="empty_search_result">No results </string>
+    <string name="submit">Submit</string>
+    <string name="email">Email/Customer User ID</string>
+    <string name="emails">Enter email(s)(comma separated)</string>
+    <string name="name">Name</string>
+    <string name="login">login</string>
+    <string name="save">SAVE</string>
+    <string name="con">CONTINUE</string>
+    <string name="verify">VERIFY</string>
+    <string name="alert_log_out">Are you sure you want to Log out?</string>
+    <string name="alert_delete_account">Are you sure you want to Delete Account?</string>
+    <string name="alert_exit">Are you sure you want to Exit the App?</string>
+    <string name="alert_clear_cart">Are you sure you want to Clear Cart?</string>
+    <string name="alert_single_delete">Are you sure you want to Delete Form Cart?</string>
+    <string name="delete_exit">Are you sure you want to Delete ?</string>
+    <string name="log_out">Log Out</string>
+    <string name="cancel">Cancel</string>
+    <string name="exit">Exit</string>
+    <string name="del">Delete</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string name="alergic_cat">Allergic to Category?</string>
+
+
+    <string name="msg_name">Name : <b>%s</b></string>
+    <string name="msg_email">Email : <b>%s</b></string>
+
+    <string name="title_registration_step_one">Registration</string>
+    <string name="title_registration_step_two">Registration Conti..</string>
+
+    <string name="error_network_server">Server not responding. Try again in a few</string>
+    <string name="error_network">Sorry, we couldn\'t connect to internet</string>
+    <string name="config_host" translatable="false">*newagesme.com</string>
+
+    <!--Login-->
+    <string name="email_empty">Enter your registered email address</string>
+    <string name="password_empty">Enter your account password</string>
+
+    <!--Change Password-->
+    <string name="current_password_empty">Enter your current password</string>
+    <string name="new_password_empty">Enter your new password</string>
+    <string name="confirm_password_empty">Confirm your new password</string>
+    <string name="confirm_password_miss_match">Passwords do not match</string>
+
+    <!--SignIn-->
+    <string name="first_name_empty">Enter your first name</string>
+    <string name="last_name_empty">Enter your last name</string>
+    <string name="location_empty">Enter your location</string>
+    <string name="gender_empty">Enter your gender</string>
+    <string name="email_sign_in_empty">Enter your email address</string>
+    <string name="password_sign_empty">Set a password</string>
+    <string name="password_criteria_not_met">Password must be more than 6 characters with at least 1 Alphabet, 1 Number and 1 Special Character</string>
+    <string name="password_confirm">Confirm your password</string>
+    <string name="invalid_email_format">Invalid email format</string>
+    <string name="password_not_match">Passwords do not match</string>
+
+    <!--Set New Password Verification-->
+    <string name="empty_new_pass">Provide the new password</string>
+    <string name="empty_new_confirm_pass">Confirm the new password</string>
+    <string name="empty_pin">Enter the verification code</string>
+
+    <string name="welcome">Welcome</string>
+    <string name="welcome_already_member_login_here">Already Member? Login here</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="enter_your_details_to_continue">Enter your details to continue</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="by_signing_up_you_are_agreeing_to_our_and_nterms_of_use_and_privacy_policy">By Signing Up you are agreeing to our and \n Terms of Use and Privacy Policy.</string>
+    <string name="forgot_password_title">Forgot Password</string>
+    <string name="enter_your_registered_email_address">Enter your registered Email address</string>
+    <string name="set_password">Set Password</string>
+    <string name="verification">Verification</string>
+    <string name="enter_the_4_digit_verification_code_that_was_sent_to_calvin_gmail_com">Enter the 4 digit verification code that was sent to : calvin@gmail.com</string>
+    <string name="medical_history">Medical History</string>
+    <string name="my_account">My Account</string>
+    <string name="chose_date_range">Chose Date Range</string>
+    <string name="reset">Reset</string>
+    <string name="resend_code">Resend Code?</string>
+    <string name="clear_all">Clear all</string>
+    <string name="category">Category</string>
+    <string name="reson">Reason</string>
+    <string name="no_data_found">No data found !</string>
+    <string name="no_cart_item">Share cart is empty !</string>
+    <string name="ed_pro">Edit Profile</string>
+    <string name="age">Age</string>
+    <string name="gender">Gender</string>
+    <string name="location">Location</string>
+    <string name="change_password">Change Password</string>
+    <string name="current_password">Current Password</string>
+    <string name="new_password">New Password</string>
+    <string name="edit_">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="title">Title</string>
+    <string name="set_your_6_digit_pin_for_account_nrecovery_purpose">Set a 6-digit PIN for account\nrecovery purpose</string>
+    <string name="confirm_your_pin">Confirm Your PIN</string>
+    <string name="sub">Submit</string>
+    <string name="forgot_pin">Forgot Pin</string>
+    <string name="forgot">Forgot PIN?</string>
+    <string name="studies_diagnostic_imaging">Studies/Diagnostic/Imaging</string>
+    <string name="item_selected">Item Selected</string>
+    <string name="add_selected_items_to_share_cart">Add selected\nitems to Share Cart</string>
+    <string name="add_data">Add Data</string>
+    <string name="add_files">Add Files</string>
+    <string name="medical_providers">Medical Providers</string>
+    <string name="add_provider">Add Provider</string>
+    <string name="medical_provider_s_name">Medical Provider\'s Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="stress_tests">Stress Tests</string>
+    <string name="previous">Previous</string>
+    <string name="add">Add</string>
+    <string name="page">Page</string>
+    <string name="share_">Share</string>
+    <string name="close">Close</string>
+
+    <string name="confirm_time">Confirm Your Time?</string>
+</resources>

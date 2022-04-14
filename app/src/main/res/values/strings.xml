@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="email_">Email</string>
+    <string name="we_think_too_much_and_feel_too_little">We think too much and feel too little \n -Charlie Chaplin</string>
+    <string name="sign_in_">Sign In</string>
+    <string name="amet_minim_mollit_non_deserunt_ullamco_est_sit_aliqua_dolor_do">Amet minim mollit non deserunt ullamco est sit aliqua dolor do</string>
+    <string name="choose_from_any_of_the_following_and_analyse_your_skill">Choose from any of the following and analyse your skill</string>
+    <string name="back">Back</string>
+    <string name="result">Results</string>
+</resources>
